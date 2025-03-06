@@ -1,3 +1,9 @@
 # kara-evenson.github.io
 
-Creating project plan for AW 
+TITLE: K & K'S QUILTED CRAFTS
+TAGLINE:
+
+PAGES:
+
+COLOR SCHEME:
+
