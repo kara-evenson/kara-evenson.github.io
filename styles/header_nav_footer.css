@@ -1,0 +1,140 @@
+/*all styles for header*/
+header {
+    background-image: linear-gradient(to bottom, #f1eed9 0%, #54b63a 100%);
+    padding: 1em 3.3333% 0;
+    border-bottom: 2px solid #2d611f;
+  }
+  
+  header img {
+    float: left;
+    width: 15.5555%;
+    max-width: 140px;
+    min-width: 70px;
+  }
+  
+  header h2{
+    font-size: 250%;
+    font-style: italic;
+    color: #2d611f;
+    text-indent: 5%;
+    text-shadow: 3px 3px 3px #2d611f;
+  }
+  
+  header h3{
+    font-size: 150%;
+    text-indent: 5%;
+  }
+  
+  /*all styles for nav menu*/
+  
+  #nav_menu{
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #2d611f;
+  
+  }
+  
+  #nav_menu ul{
+    flex-basis: 100%;
+    list-style: none;
+    position: relative;
+  }
+  
+  #nav_menu ul li{
+    float: left;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #nav_menu ul ul{
+    display: none;
+  }
+  
+  #nav_menu ul ul li{
+    float: none;
+  }
+  
+  #nav_menu ul li:hover > ul, #nav_menu ul li:focus > ul{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+  }
+  
+  #nav_menu ul li a{
+    text-align: center;
+    display: block;
+    padding: .7em 0;
+    background-color: #2d611f;
+    font-weight: bold;
+    color: white;
+  }
+  
+  #nav_menu ul li a.current{
+    color: #db9dc3;
+  }
+  
+  #nav_menu ul li a:hover, #nav_menu ul li a:focus{
+    background-color: #54b63a;
+  }
+  
+  #nav_menu ul li:hover ul{
+    width: 100%;
+  }
+
+  /*all styles for footer*/
+footer {
+    clear: both;
+    background-color: #2d611f;
+    padding: .4em 3.33333%;
+  }
+  footer p {
+    font-size: 80%;
+    color: white;
+    text-align: center;
+  }
+
+  footer p a:link, footer p a:visited{
+    color:black;
+  }
+
+  footer p a:hover, footer p a:focus{
+    color: white;
+  }
+
+  /*all styles for media queries*/
+  @media only screen and (max-width: 767px){
+    
+    #nav_menu{
+      display: none;
+    }
+    #mobile_menu{
+      display: block;
+      text-align: right;
+    }
+
+    #mobile_menu a{
+      color: #db9dc3;
+    }
+    .slicknav_menu{
+      background: #2d611f !important;
+      padding: 3px !important;
+    }
+
+    a.slicknav_btn{
+      background: #2d611f;
+    }
+  }
+
+  @media only screen and (max-width: 479px){
+    header h2 {
+      font-size: 210%;
+    }
+    
+    header h3 {
+      font-size: 100%;
+    }
+  }
+  

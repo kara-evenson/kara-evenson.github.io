@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>K & K's Quilted Crafts: Shop</title>
-</head>
-<body>
-    <h1>Shop</h1>
-    <p>This page is under construction. Please come back later.</p>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>K & K's Quilted Crafts</title>
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="../styles/header_nav_footer.css">
+        <link rel="stylesheet" href="../styles/slicknav.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="../js/jquery.slicknav.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"})
+            });
+        </script>
+    </head>
+    <header>
+        <h1>K & K's Quilted Crafts</h1>
+        <p>Find your next family heirloom.</p>
+    </header>
+    <body>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="../index.html" class="current">Home</a></li>
+                <li><a href="../pages/shop.html">Shop</a></li>
+                <li><a href="../pages/custom.html">Custom Orders</a></li>
+                <li><a href="../pages/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h1>Shop</h1>
+                <p>This page is under construction. Please come back later.</p>
+            </section>
+        </main>
+    </body>
 </html>
