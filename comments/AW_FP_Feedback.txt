@@ -7,8 +7,11 @@ Total for the project: 8 hour
 Questions:
 Are you pleased with your progress so far?
 	If yes, why?
+
 	If no, why?
+		I am not super happy with my progress so far. There are more things I would like to do with the homepage, including turning the featured image into a carousel of images, and turning the featured rail images into links for products. There are also other smaller style things I plan on updating, including creating a logo for both my header and to use as a favicon. I'll be spending some extra time during spring break working on these parts. 
 Is there anything you need from me?
+	Not currently.
 
 Feedback/Fixes:
 Rene: 	Kara, sounds wonderful. This could morph to be your Apps Development project. You could also check out Darn Knit Away for website ideas. It's my favorite yarn shop.
