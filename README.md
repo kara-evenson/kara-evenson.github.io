@@ -14,7 +14,7 @@ PAGES:
 
 COLOR SCHEME: Parsley: #2d611f -- header background
             White: #ffffff -- large text on green background
-           Apple:  #54b63a
+           Pine Glade:  #bad69d
            light orchid: #db9dc3
            gordons green: #060c04
            aths special: #f1eed9

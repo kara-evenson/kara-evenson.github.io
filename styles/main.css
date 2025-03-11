@@ -7,100 +7,63 @@ body {
     padding: 0;
     border: 3px solid #2d611f;
     box-shadow: 0 10px 20px 10px;
+    background-color: antiquewhite;
   }
-  
-  h1, h2, h3 p{
-    margin: 0;
-    padding: 0;
-  }
-  
-  a {
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  ul{
-    margin: 0;
-    padding: 0;
-  }
-  
-  /*all styles for main*/
+
   main{
     display: flex;
+    justify-content: space-around;
   }
-  
-  /*all styles for section*/
+
   section{
-    flex-basis: 62.7777%;
-    order: 2;
-    padding: 1.5625em 3.3333% 0 3.3333%;
-    /*width: 62.7777%;*/
+    order: 1;
+    padding: 1em;
     }
   
   section h1{
-    font-size: 160%;
-  }
-  section h2{
-    font-size: 130%;
-  }
-  section h3{
-    font-size: 110%;
+    font-size: 200%;
     color: #060c04;
   }
-  
-  section ul {
-    padding-left: 2em;
+
+  #featuredImage{
+    display: flex;
+    justify-content: center;
   }
-  
-  section a:link, section a:visited {
-    color: #db9dc3;
+
+  #featuredImage img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
   }
-  section a:hover, section a:focus {
-    color: #2d611f;
+
+  #aboutUs{
+    padding: 1em;
   }
-  
-  section img.icon {
-    float: left;
-    margin-right: 10px;
-    width: 32px;
-    vertical-align: middle;
-    transition: transform 2s ease-out;
+
+  #aboutUs h1{
+    text-align: center;
   }
-  
-  section img.icon:hover {
-    transform: scale(1.1);
+
+  #clarify{
+    font-style: oblique;
   }
-  
-  
-  /*all styles for aside*/
+
+   
   aside {
-    flex-basis: 27.2222%;
-    order: 1;
-    padding: 1.5625em 0 0 3.3333%;
-    /* width: 27.2222%; */
+    background-color: #bad69d;
+    order: 2;
+    padding: 2em;
   }
   
   aside h2{
-    color: #db9dc3;
+    color: #060c04;
     font-size: 125%;
     padding: 0 0 .5em 0;
   }
-  
-  aside ul {
-    padding-left: 1em;
-  }
-  
-  aside li{
-    line-height: 1.5em;
-  }
-  aside a:link, aside a:visited {
-    font-weight: bold;
-    color: #2d611f;
-    text-decoration: none;
-  }
-  aside a:hover, aside a:focus {
-    color: #db9dc3;
-    text-decoration: none;
+
+  aside h3{
+    font-size: 90%;
   }
   
   #mobile_menu{
@@ -122,14 +85,26 @@ body {
     section {
       order: 1;
     }
-    aside {
+    #featuredRail {
       order: 2;
       padding: .5em 3.3333% 1em 3.3333%;
     }
   }
   
   @media only screen and (max-width: 479px){
-    
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #featuredImage, #featuredRail, #aboutUs {
+      width: 100%;
+      padding: 1em;
+      text-align: center;
+    }
+    #mobile_menu {
+      display: block;
+    }
   }
   
   

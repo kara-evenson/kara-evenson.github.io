@@ -1,6 +1,6 @@
 /*all styles for header*/
 header {
-    background-image: linear-gradient(to bottom, #f1eed9 0%, #54b63a 100%);
+    background-image: linear-gradient(to bottom, #f1eed9 0%, #bad69d 100%);
     padding: 1em 3.3333% 0;
     border-bottom: 2px solid #2d611f;
   }
@@ -27,33 +27,30 @@ header {
   
   /*all styles for nav menu*/
   
-  #nav_menu{
-    clear: both;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 2px solid #2d611f;
-  
-  }
-  
-  #nav_menu ul{
-    flex-basis: 100%;
-    list-style: none;
-    position: relative;
-  }
-  
-  #nav_menu ul li{
-    float: left;
-    width: 20%;
+  #nav_menu {
+    width: 100%;
     margin: 0;
     padding: 0;
+    background-color: #2d611f;
   }
-  
-  #nav_menu ul ul{
-    display: none;
+
+  #nav_menu ul {
+      display: flex;
+      justify-content: space-around;
+      padding: 0;
+      margin: 0;
+      width: 100%;
   }
-  
-  #nav_menu ul ul li{
-    float: none;
+
+  #nav_menu ul li {
+      list-style: none;
+      width: auto;
+  }
+
+  #nav_menu ul li a {
+      display: block;
+      width: 100%;
+      text-align: center;
   }
   
   #nav_menu ul li:hover > ul, #nav_menu ul li:focus > ul{
@@ -77,7 +74,7 @@ header {
   }
   
   #nav_menu ul li a:hover, #nav_menu ul li a:focus{
-    background-color: #54b63a;
+    background-color: #bad69d;
   }
   
   #nav_menu ul li:hover ul{
