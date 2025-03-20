@@ -51,6 +51,7 @@ header {
       display: block;
       width: 100%;
       text-align: center;
+      text-decoration: none;
   }
   
   #nav_menu ul li:hover > ul, #nav_menu ul li:focus > ul{

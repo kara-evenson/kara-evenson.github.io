@@ -16,7 +16,7 @@ body {
   }
 
   section{
-    order: 1;
+    order: 2;
     padding: 1em;
     }
   
@@ -37,11 +37,13 @@ body {
     margin: 0 auto;
   }
 
-  #aboutUs{
+  #rightRail{
+    order: 3;
     padding: 1em;
+    width: 33%;
   }
 
-  #aboutUs h1{
+  #rightRail h1{
     text-align: center;
   }
 
@@ -49,14 +51,14 @@ body {
     font-style: oblique;
   }
 
-   
-  aside {
+  #featuredRail {
     background-color: #bad69d;
-    order: 2;
+    order: 1;
     padding: 2em;
+    width: 30%;
   }
   
-  aside h2{
+  #featuredRail h2{
     color: #060c04;
     font-size: 125%;
     padding: 0 0 .5em 0;

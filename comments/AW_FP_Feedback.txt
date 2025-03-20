@@ -1,4 +1,30 @@
 --------------------------------------------------
+FP 03 
+--------------------------------------------------
+
+Time on this part: 1
+Total for the project: 9
+
+Questions:
+Are you pleased with your progress so far?
+	If yes, why?
+	If no, why?
+Is there anything you need from me?
+
+Feedback/Fixes:
+
+Feedback/Fixes: 
+Rene: Kara, the github link you have me goes to your raw files. If you want to give your URL so people can look at your website online, then that would be:
+https://kara-evenson.github.io
+The links within the text on your top-level index do not go to the desired pages. The nav links work, though.
+I love what you say on the under construction pages.
+I agree with a carousel of images for the homepage. It has a "shape up" look to it and perhaps a carousel will help. We want to avoid the "shape up" look.
+Try custom fonts for the name and/or tagline. Remove the underlines on the nav.
+There is an error on the page. It failed to load styles.slicknav.css. Check you href, it is not properly formed.
+
+Fixes: I fixed the link to the slicknav style sheet and the links on the about us section to go to the correct pages. 
+
+--------------------------------------------------
 FP 02
 --------------------------------------------------
 Time on this part: 8 hour
