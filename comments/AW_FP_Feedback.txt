@@ -11,8 +11,6 @@ Are you pleased with your progress so far?
 	If no, why?
 Is there anything you need from me?
 
-Feedback/Fixes:
-
 Feedback/Fixes: 
 Rene: Kara, the github link you have me goes to your raw files. If you want to give your URL so people can look at your website online, then that would be:
 https://kara-evenson.github.io
