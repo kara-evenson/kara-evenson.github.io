@@ -1,14 +1,28 @@
-let slideIndex = 0;
-showSlides();
+"use strict";
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("slides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+const getElement = (selector) => document.querySelector(selector)
+
+var i = 0;//start point
+var slides = [];
+var time = 3000;
+slides[0] = "flamingo-folded.jpg";
+slides[1] = "philly-teams.jpg";
+slides[2] = "bowl-holders.jpg";
+
+
+const showSlides = () => {
+  document.slide.src = slides[i];
+
+  if(i < slides.length - 1){
+    i++;
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 7000);
+  else{
+    i = 0;
+  }
+  setTimeout(showSlides, time);
+
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  showSlides();
+});

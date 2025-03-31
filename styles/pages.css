@@ -1,20 +1,45 @@
 section{
     display: block;
-    font-size: 200%;
-    text-align: center;
-    font-weight: bold;
+    font-size: 100%;
     margin-bottom: .5em;
 }
 
-section p{
-    font-size: 60%;
-    font-weight: normal;
+fieldset{
+    display: block;
     margin: 0 auto;
+    padding: 1em;
+    width: 90%;
 }
 
-img {
-    max-width: 90%;
-    margin: 0 auto;
-    height: auto;
-    display: block;
-  }
+fieldset legend{
+    background-color: #2d611f;
+    border: 1px solid #060c04;
+    color: antiquewhite;
+    padding: .25em;
+}
+
+fieldset label{
+    float: left;
+    width: 10em;
+    margin-right: .5em;
+    text-align: right;
+}
+
+fieldset input{
+    min-width: 150px;
+    width: 10em;
+    margin-right: auto;
+}
+
+fieldset textarea{
+    resize: none;
+}
+
+fieldset button{
+    margin-left: 10em;
+    width: 10em;
+    background-color: #2d611f;
+    color: antiquewhite;
+    border: 1px solid #060c04;
+    font-size: 100%;
+}

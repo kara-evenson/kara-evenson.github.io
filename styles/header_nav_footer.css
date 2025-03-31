@@ -11,18 +11,22 @@ header {
     max-width: 140px;
     min-width: 70px;
   }
-  
-  header h2{
-    font-size: 250%;
-    font-style: italic;
+
+  header h1 {
+    font-family: 'Arial black', sans-serif;
+    font-size: 400%;
     color: #2d611f;
-    text-indent: 5%;
-    text-shadow: 3px 3px 3px #2d611f;
+    text-align: center;
+    text-shadow: 3px 3px 3px #060c04;
+    margin-bottom: 0;
   }
   
   header h3{
     font-size: 150%;
+    font-style: oblique;
     text-indent: 5%;
+    text-align: center;
+    color: #060c04;
   }
   
   /*all styles for nav menu*/

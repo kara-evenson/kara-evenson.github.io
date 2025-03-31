@@ -2,8 +2,8 @@
 FP 03 
 --------------------------------------------------
 
-Time on this part: 1
-Total for the project: 9
+Time on this part: 14
+Total for the project: 22
 
 Questions:
 Are you pleased with your progress so far?
