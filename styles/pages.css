@@ -35,6 +35,11 @@ fieldset textarea{
     resize: none;
 }
 
+span{
+    color: red;
+    font-style: oblique;
+}
+
 fieldset button{
     margin-left: 10em;
     width: 10em;
@@ -43,3 +48,43 @@ fieldset button{
     border: 1px solid #060c04;
     font-size: 100%;
 }
+
+.details{
+    font-style: oblique;
+    font-size: 75%;
+}
+
+#request button{
+    margin-left: 10em;
+    width: 10em;
+    background-color: #2d611f;
+    color: antiquewhite;
+    border: 1px solid #060c04;
+    font-size: 100%;
+}
+
+@media only screen and (max-width: 479px){
+    body{
+        width: 90%;
+    }
+
+    section{
+        padding: .5em;
+    }
+
+    .inputs{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .inputs label{
+        text-align: left;
+        margin-right: 0;
+        float: none;
+    }
+
+    #mobile_menu {
+      display: block;
+    }
+  }
+  

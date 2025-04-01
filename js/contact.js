@@ -58,7 +58,7 @@ const checkIfFilled = (text, name) => {
              case "name":
                  throw new Error ("Please enter your name.");
              case "phone":
-                 throw new Error ("Please enter a phone number");
+                 throw new Error ("Please enter a phone number.");
          }
     }
      return text;

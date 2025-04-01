@@ -2,7 +2,7 @@
 
 const getElement = (selector) => document.querySelector(selector)
 
-var i = 0;//start point
+/* var i = 0;//start point
 var slides = [];
 var time = 3000;
 slides[0] = "flamingo-folded.jpg";
@@ -25,4 +25,4 @@ const showSlides = () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   showSlides();
-});
+}); */

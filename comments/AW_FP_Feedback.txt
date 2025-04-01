@@ -2,14 +2,17 @@
 FP 03 
 --------------------------------------------------
 
-Time on this part: 14
-Total for the project: 22
+Time on this part: 17
+Total for the project: 25
 
 Questions:
 Are you pleased with your progress so far?
 	If yes, why?
+		I am more pleased than in my first round. 
 	If no, why?
+		I think it still could use some refinement and I was not able to get the slideshow to work. 
 Is there anything you need from me?
+	Do you have any resources on creating a slideshow? I tried two different approaches, one from web dev simplified and one from a different youtube channel and I couldn't get either to work.
 
 Feedback/Fixes: 
 Rene: Kara, the github link you have me goes to your raw files. If you want to give your URL so people can look at your website online, then that would be:
