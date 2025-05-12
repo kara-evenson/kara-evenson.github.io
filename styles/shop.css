@@ -1,0 +1,52 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em;
+    font-size: 100%;
+    margin-bottom: .5em;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: calc(33.333% - 1em); /* Three columns with gap */
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .card {
+        width: calc(50% - 1em); /* Two columns on tablets */
+    }
+}
+
+  @media only screen and (max-width: 479px){
+    body{
+        width: 90%;
+    }
+
+    section {
+        padding: .5em;
+    }
+
+    .card {
+        width: 100%; /* One column on mobile */
+    }
+
+    #mobile_menu {
+        display: block;
+    }
+}

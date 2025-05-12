@@ -1,6 +1,9 @@
 /*all styles for header*/
 header {
-    background-image: linear-gradient(to bottom, #f1eed9 0%, #bad69d 100%);
+    background-image: url('../images/tileheader.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
     padding: 1em 3.3333% 0;
     border-bottom: 2px solid #2d611f;
   }
@@ -137,6 +140,10 @@ footer {
     
     header h3 {
       font-size: 100%;
+    }
+
+    header h1{
+      font-size: 250%;
     }
   }
   

@@ -63,6 +63,7 @@ fieldset button{
     font-size: 100%;
 }
 
+
 @media only screen and (max-width: 479px){
     body{
         width: 90%;
