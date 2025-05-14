@@ -33,15 +33,13 @@ const addToOrder = (event) => {
 
     const product = products.find(p => p.id == productId);
     if (product) {
-        cart.push(product);
-        console.log(cart);
+        cart.push({ name: product.name, price: product.price });
         totalPrice += product.price;
-        console.log(totalPrice);
         getElement("#cart-total").textContent = new Intl.NumberFormat("en-US", {
         style: "currency",
-        currency: "USD"
-    }).format(totalPrice);
-    } else {
+        currency: "USD"}).format(totalPrice);
+    }
+    else {
         alert("Product not found");
     }
 }
@@ -50,7 +48,7 @@ const checkoutOrder = (event) => {
     event.preventDefault();
 
     sessionStorage.setItem("cart", JSON.stringify(cart));
-    sessionStorage.setItem("totalPrice", totalPrice.toString());
+    sessionStorage.setItem("totalPrice", totalPrice.toString(2));
 
     let form = getElement("#checkout-cart");
     const checkout = form.querySelector("#checkout");
@@ -60,5 +58,7 @@ const checkoutOrder = (event) => {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+    sessionStorage.removeItem("cart");
+    sessionStorage.removeItem("totalPrice");
     getElement("#checkout").addEventListener("click", checkoutOrder);
 });
