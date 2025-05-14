@@ -3,8 +3,8 @@
 FP Final
 --------------------------------------------------
 
-Time on this part: 5
-Total for the project: 30
+Time on this part: 13
+Total for the project: 38
 
 Questions:
 Are you pleased with your progress so far?
