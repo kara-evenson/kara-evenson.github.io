@@ -3,8 +3,8 @@
 FP Final
 --------------------------------------------------
 
-Time on this part: 2
-Total for the project: 27
+Time on this part: 5
+Total for the project: 30
 
 Questions:
 Are you pleased with your progress so far?
@@ -12,9 +12,6 @@ Are you pleased with your progress so far?
 		 
 	If no, why?
 	
-Is there anything you need from me?
-	
-
 Feedback/Fixes: 
 Rene: Kara, your site runs perfect from github. For the slideshow, did you try what we learned in Web Design? If you still have the student download code, then look in book_examples | ch15 | 06_animations. Here's https://www.w3schools.com/css/css3_animations.asp and https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations, which may help.
 You are making good progress, but the style still reminds me of ShapeUp. Try rounding edges more and removing the gradient. You may need to also radius the header. Have you thought of an image in the header. Perhaps one that is subdued and behind the words.

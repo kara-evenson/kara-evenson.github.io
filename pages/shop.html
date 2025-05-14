@@ -3,13 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <base href="../">
         <title>K & K's Quilted Crafts</title>
-        <link rel="stylesheet" href="../styles/main.css">
-        <link rel="stylesheet" href="../styles/header_nav_footer.css">
-        <link rel="stylesheet" href="../styles/shop.css">
-        <link rel="stylesheet" href="../styles/slicknav.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/header_nav_footer.css">
+        <link rel="stylesheet" href="styles/shop.css">
+        <link rel="stylesheet" href="styles/slicknav.css">
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script src="../js/jquery.slicknav.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
                 $('#nav_menu').slicknav({prependTo:"#mobile_menu"})
@@ -24,82 +25,108 @@
         <nav id="mobile_menu"></nav>
         <nav id="nav_menu">
             <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/shop.html" class="current">Shop</a></li>
-                <li><a href="../pages/custom.html">Custom Orders</a></li>
-                <li><a href="../pages/contact.html">Contact Us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/shop.html" class="current">Shop</a></li>
+                <li><a href="pages/custom.html">Custom Orders</a></li>
+                <li><a href="pages/contact.html">Contact Us</a></li>
             </ul>
         </nav>
         <main>
+            <form action="pages/checkout.html" method="get" id="checkout-cart">
             <section>
                 <h1>Shop</h1>
                 <p>Browse through a selection of our handmade quilts and crafts. Each item is made with love and care, ensuring that you receive a unique and high-quality product.</p>
 
                 <div class="card">
-                    <img src="../images/table-runner.jpg" alt="Table Runner" style="width:100%">
+                    <img src="images/table-runner.jpg" alt="Table Runner" style="width:100%">
                     <div class="container">
                       <h4><b>Table Runner</b></h4>
                       <p>$50.00</p>
-                    </div>
+                      <p>A perfect piece for your Christmas table. This table runner features cardinals and snowflakes, and candycanes on a red background.</p>
+                      <button class="add-to-cart" data-id="1">Add to Cart</button>
+                    </div> 
                 </div>
                 <div class="card">
-                    <img src="../images/philly-teams-two.jpg" alt="Philly Quilt" style="width:100%">
+                    <img src="images/philly-teams-two.jpg" alt="Philly Quilt" style="width:100%">
                     <div class="container">
                       <h4><b>Philadelphia Quilt</b></h4>
                       <p>$600.00</p>
+                      <p>This quilt is perfect for your Philadelphia loving family members. All materials used in the quilt are 100% cotton.</p>
+                      <button class="add-to-cart" data-id="2">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../images/monkey-pot-holder.jpg" alt="Pot holder" style="width:100%">
+                    <img src="images/monkey-pot-holder.jpg" alt="Pot holder" style="width:100%">
                     <div class="container">
-                      <h4><b>Monkey Potholder</b></h4>
+                      <h4><b>Potholder (Monkey)</b></h4>
                       <p>$60.00</p>
+                      <p>Cute and functional, this potholder can be used to protect you from hot pots and pans and also be a fun showpiece in your kitchen.</p>
+                      <button class="add-to-cart" data-id="5">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../images/flamingo-folded.jpg" alt="Flamingo Quilt" style="width:100%">
+                    <img src="images/flamingo-folded.jpg" alt="Flamingo Quilt" style="width:100%">
                     <div class="container">
                       <h4><b>Flamingo Quilt</b></h4>
                       <p>$900.00</p>
+                      <p>A handpieced quilt featuring two flamingos facing each other. All materials used in the quilt are 100% cotton.</p>
+                      <button class="add-to-cart" data-id="6">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../images/bowl-holders.jpg" alt="Bowl Pot Holders" style="width:100%">
+                    <img src="images/bowl-holders-horizontal.jpg" alt="Bowl Pot Holders" style="width:100%">
                     <div class="container">
-                      <h4><b>Bowl Holders</b></h4>
+                      <h4><b>Bowl Holders (2)</b></h4>
                       <p>$50.00</p>
+                      <p>Just what you need when you're trying to heat up some leftovers. Microwave and washing machine safe.</p>
+                      <button class="add-to-cart" data-id="7">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../images/bluegreenjunglequilt.jpg" alt="Jungle Quilt 1" style="width:100%">
+                    <img src="images/bluegreenjunglequilt.jpg" alt="Jungle Quilt 1" style="width:100%">
                     <div class="container">
                       <h4><b>Baby Quilt (Jungle)</b></h4>
                       <p>$400.00</p>
+                      <p>A safari-themed baby quilt with blue, green and tan borders and a green backing. All materials used in the quilt are 100% cotton.</p>
+                      <button class="add-to-cart" data-id="4">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../images/junglequilt16x9.jpg" alt="Jungle Quilt" style="width:100%">
+                    <img src="images/junglequilt16x9.jpg" alt="Jungle Quilt" style="width:100%">
                     <div class="container">
                       <h4><b>Baby Quilt (Jungle)</b></h4>
                       <p>$400.00</p>
+                      <p>A safari-themed baby quilt with reddish-brown borders and backing. All materials used in the quilt are 100% cotton.</p>
+                      <button class="add-to-cart" data-id="4">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../images/burp-cloth.jpg" alt="burp cloth"" style="width:100%">
+                    <img src="images/baby-burp-cloth-horizontal.jpg" alt="burp cloth" style="width:100%">
                     <div class="container">
                       <h4><b>Baby Burp Cloth</b></h4>
                       <p>$40.00</p>
+                      <p>Perfect for over the shoulder, quick wipe-ups and more. A a great gift for anyone with a new family member joining the world.</p>
+                      <button class="add-to-cart" data-id="3">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../images/dog-potholder.jpg" alt="Dog potholder" style="width:100%">
+                    <img src="images/potholder-horizontal.jpg" alt="Dog potholder" style="width:100%">
                     <div class="container">
-                      <h4><b>Baby Quilt (Jungle)</b></h4>
+                      <h4><b>Potholder (Dogs)</b></h4>
                       <p>$60.00</p>
+                      <p>Cute and functional, this potholder can be used to protect you from hot pots and pans and also be a fun showpiece in your kitchen.</p>
+                      <button class="add-to-cart" data-id="5">Add to Cart</button>
                     </div>
                 </div>
             </section>
+            <section id="cart">
+                <h2>Your Cart</h2>
+                <p>Total: <span id="cart-total">0.00</span></p>
+                <button id="checkout">Checkout</button>
+            </section>
+            </form>
         </main>
+        <script src="js/shop.js"></script>
     </body>
     <footer>
 		<p>&copy; Kara Evenson</p>

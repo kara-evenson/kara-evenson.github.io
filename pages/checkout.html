@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <base href="../">
+        <title>K & K's Quilted Crafts</title>
+        <link rel="stylesheet" href="styles/main.css"> 
+        <link rel="stylesheet" href="styles/header_nav_footer.css">
+        <link rel="stylesheet" href="styles/checkout.css">
+        <link rel="stylesheet" href="styles/slicknav.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"})
+            });
+        </script>
+    </head>
+    <header>
+        <h1>K & K's Quilted Crafts</h1>
+        <h3>Find your next family heirloom.</h3>
+    </header>
+    <body>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/shop.html">Shop</a></li>
+                <li><a href="pages/custom.html">Custom Orders</a></li>
+                <li><a href="pages/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h1>Checkout</h1>
+                <p>Thank you for your order! Please review your order details below:</p>
+                <div class="order-summary">
+                    <h2>Order Summary</h2>
+                    <ul id="order-items"></ul>
+                    <p>Total: $<span id="order-total">0.00</span></p>
+                </div>
+            </section>
+        </main>  
+</body>
+</html>
