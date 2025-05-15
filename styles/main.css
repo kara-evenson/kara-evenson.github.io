@@ -33,7 +33,7 @@ body {
     margin: auto;
     overflow: hidden;
     aspect-ratio: 4 / 3;
-    min-height: 600px;
+    min-height: 500px;
 }
 
 .slide{
