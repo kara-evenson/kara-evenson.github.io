@@ -140,6 +140,10 @@ img{
       width: 100%;
       padding: 1em;
     }
+
+    #slideshow{
+      min-height: 400px;
+    }
     
     #featuredRail {
       width: 90%;
